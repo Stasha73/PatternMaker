@@ -2,10 +2,8 @@ package org.launchcode;
 
 public class BlockyBaublePattern extends Pattern {
     public void pattern() {
-   //BlockStitch bs = new BlockStitch();
-    //ShortLineStitch sls = new ShortLineStitch();
-    //CircleStitch cs = new CircleStitch();
 
+    // loops through BlockStitch (bs), ShortLineStitch (sls) and Circle Stitch (cs)
         for (int b = 1; b <= 3; b++) {
         bs.sew();
         sls.sew();
