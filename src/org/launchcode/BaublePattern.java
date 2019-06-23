@@ -4,7 +4,7 @@ public class BaublePattern extends Pattern {
 
     public void pattern() {
 
-        //first loops through with the "-" 5 times
+        //first loops through with the shortline stitch (sls) "-" 5 times
         for (int i = 1; i <= 5; i++) {
             sls.sew();
             {
